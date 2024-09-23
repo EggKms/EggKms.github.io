@@ -24,6 +24,8 @@ description: >- # used by seo meta and the atom feed
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://eggkms.github.io/"
+plugins:
+  - jekyll-sitemap
 
 github:
   username: eggkms # change to your GitHub username
@@ -192,6 +194,10 @@ defaults:
     values:
       layout: page
       permalink: /:title/
+  - scope:
+      path: "assets/**/*.pdf"
+    values:
+      sitemap: false
 
 sass:
   style: compressed

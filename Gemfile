@@ -2,9 +2,13 @@
 
 source "https://rubygems.org"
 
+# 테마설치
 gem "jekyll-theme-chirpy", "~> 7.1"
 
 gem "html-proofer", "~> 5.0", group: :test
+
+# sitemap 설치
+gem 'jekyll-sitemap'
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", ">= 1", "< 3"
