@@ -1,6 +1,6 @@
 ---
 title: github page 를 google 검색에 나타나게 하는법
-date: YYYY-MM-DD HH:MM:SS +09:00
+date: 2024-09-22 08:00:00
 categories: [homepage, github, github.io]
 tags:
   [
